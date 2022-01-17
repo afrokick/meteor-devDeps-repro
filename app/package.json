@@ -1,0 +1,19 @@
+{
+  "name": "meteor-peerDeps-repro",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "meteor-node-stubs": "^1.1.0",
+    "mobx": "^5.15.7",
+    "packageA": "file:../packageA"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    }
+  }
+}

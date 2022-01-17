@@ -1,0 +1,17 @@
+{
+  "name": "packagea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "mobx": "^5.15.7"
+  },
+  "devDependencies": {
+    "mobx": "^5.15.7"
+  }
+}
